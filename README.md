@@ -17,11 +17,9 @@ Help the chicken cross the road without getting hit by cars!
 3. Avoid cars!
 4. Survive as long as possible
 
-## 🖼️ Screenshots
-![Gameplay](screenshots/gameplay.png)
 
 ## 🛠️ Run Locally
 ```bash
-git clone https://github.com/your-username/chicken-road.git
-cd chicken-road
+git clone https://github.com/signthecontract/Chicken-Road-Game.git
+cd Chicken-Road-Game
 open index.html
