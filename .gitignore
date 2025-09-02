@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
+
+# Test coverage reports
+coverage/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo

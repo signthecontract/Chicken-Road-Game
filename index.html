@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chicken Road</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="score">Score: 0</div>
+    <canvas id="game-canvas" width="400" height="600"></canvas>
+    <div id="start-screen">
+      <h1>🐔 Chicken Road</h1>
+      <p>Tap or use ← → arrows to cross safely!</p>
+      <button id="start-btn">Start Game</button>
+    </div>
+    <div id="game-over" style="display: none;">
+      <h2>Game Over!</h2>
+      <p>Your Score: <span id="final-score">0</span></p>
+      <button id="restart-btn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
